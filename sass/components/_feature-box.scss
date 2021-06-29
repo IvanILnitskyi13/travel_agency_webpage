@@ -11,7 +11,8 @@
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    background-image: linear-gradient(to right,
+            $color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
     color: transparent;
 
@@ -25,20 +26,3 @@
   }
 }
 
-.section-features{
-  margin-top: -10rem;
-  padding: 20rem 0;
-  background-image: linear-gradient(
-                  to right bottom,
-                  rgba($color-primary-light, 0.8),
-                  rgba($color-primary-dark, 0.8)),
-  url(../img/nat-4.jpg);
-
-  background-size: cover;
-
-  transform: skewY(-7deg);
-
-  & > *{
-    transform: skewY(7deg);
-  }
-}
